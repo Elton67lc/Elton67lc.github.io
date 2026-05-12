@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Multimídia — Cap. 4 / Ativ. 4</title>
+</head>
+<body>
+
+    <header>
+        <h1>Recursos Multimídea </h1>
+        <p>Explore abaixo nossa seleção de materiais em vídeo, áudio e componentes responsivos de última geração.</p>
+    </header>
+
+    <main>
+
+        <figure>
+            <video controls width="800" height="450"
+                poster="poster-aula.jpg"
+                preload="metadata">
+
+                <source src="videos/aula-html.mp4" type="video/mp4">
+                <source src="videos/aula-html.webm" type="video/webm">
+
+                <track
+                    src="legendas/aula-html.vtt"
+                    kind="subtitles"
+                    srclang="pt"
+                    label="Português"
+                    default>
+
+                <p>
+                    Infelizmente, seu navegador é antigo demais para este vídeo. 
+                    <a href="videos/aula-html.mp4">Baixe o arquivo aqui para assistir offline.</a>
+                </p>
+
+            </video>
+
+            <figcaption>
+                Masterclass: Dominando as Novas Tags do HTML5.
+                Fonte: Acervo Digital da Coordenação.
+            </figcaption>
+        </figure>
+
+        <hr>
+
+        <figure>
+
+            <audio controls preload="metadata">
+
+                <source src="audios/podcast-html.mp3" type="audio/mpeg">
+                <source src="audios/podcast-html.ogg" type="audio/ogg">
+
+                <p>
+                    O player de áudio não carregou. 
+                    <a href="audios/podcast-html.mp3">
+                        Obtenha o MP3 do podcast aqui.
+                    </a>
+                </p>
+
+            </audio>
+
+            <figcaption>
+                Papo Tech #01: Por que a semântica importa?
+                <a href="transcricao.html">Acesse o texto completo do debate</a>
+            </figcaption>
+
+        </figure>
+
+        <hr>
+
+        <figure>
+
+            <iframe
+                width="800"
+                height="450"
+                src="https://www.youtube-nocookie.com/embed/3oSIqIqzN3M"
+                title="Aulas práticas de desenvolvimento web"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+            <figcaption>
+                Destaque Externo: "Fundamentos do Desenvolvimento Web", via Curso em Vídeo no YouTube.
+            </figcaption>
+
+        </figure>
+
+        <hr>
+
+        <figure>
+
+            <picture>
+
+                <source
+                    media="(min-width: 768px)"
+                    srcset="img/banner-wide.jpg">
+
+                <img
+                    src="img/banner-mobile.jpg"
+                    alt="Ilustração moderna de um setup de programação focado em acessibilidade"
+                    width="600"
+                    height="300">
+
+            </picture>
+
+            <figcaption>
+                Identidade Visual Adaptativa: Design que se ajusta ao seu dispositivo.
+            </figcaption>
+
+        </figure>
+
+    </main>
+
+    <footer>
+        <p>
+            <strong>Desenvolvedor:</strong> Elton Lucas Gomes Correia <br>
+            <strong>Registro Acadêmico:</strong> 2026313710 <br>
+            <strong>Data de entrega:</strong> 12 de Maio de 2026
+        </p>
+    </footer>
+
+</body>
+</html>
