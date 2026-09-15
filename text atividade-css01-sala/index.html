@@ -1,37 +1,43 @@
- <link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição em Curso</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <form>
-    <h1>Inscrição em Curso</h1>
-    <p>A inscrição em um curso é o processo pelo qual uma pessoa se cadastra para participar de uma formação ou atividade de aprendizagem. Por meio da inscrição, o aluno fornece seus dados e garante sua vaga no curso desejado. Esse processo é importante para organizar as turmas e permitir que mais pessoas tenham acesso ao conhecimento e ao desenvolvimento de novas habilidades.</p>
+        <h1>Inscrição em Curso</h1>
+        <p>A inscrição em um curso é o processo pelo qual uma pessoa se cadastra para participar de uma formação ou atividade de aprendizagem. Por meio da inscrição, o aluno fornece seus dados e garante sua vaga no curso desejado. Esse processo é importante para organizar as turmas e permitir que mais pessoas tenham acesso ao conhecimento e ao desenvolvimento de novas habilidades.</p>
 
-    <form>
-        <label>Nome:</label>
-        <input>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome completo" required>
 
-        <label>E-mail:</label>
-        <input>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
 
-        <label>Senha:</label>
-        <input>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" placeholder="Crie uma senha" required>
 
-        <label>Data de Nascimento:</label>
-        <input>
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" id="data">
 
-        <label>Curso:</label>
-        <select>
+        <label for="curso">Curso:</label>
+        <select id="curso">
             <option>Informática</option>
             <option>Química</option>
             <option>Agropecuária</option>
         </select>
 
-        <label>Comentário:</label>
-        <textarea></textarea>
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario" placeholder="Escreva aqui seu comentário..."></textarea>
 
-        <button>Enviar</button>
+        <button type="submit">Enviar</button>
     </form>
 
     <footer>
         Integrantes: Jamerson Felipe, Elton Lucas | Data: 02/06/2026 | Disciplina: Programação Web
     </footer>
-
 </body>
+</html>
